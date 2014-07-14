@@ -1,5 +1,4 @@
-#-*- coding: UTF-8 -*- 
-#
+#-*- coding: UTF-8 -*- #
 # This file is a command-module for Dragonfly.
 # (c) Copyright 2008 by Christo Butcher
 # Licensed under the LGPL, see <http://www.gnu.org/licenses/>
@@ -127,7 +126,7 @@ class ssh(BringableBase):
 
 #---------------------------------------------------------------------------
 # Set up this module's configuration.
-# _bringme-en.txt所对应的配置文件 
+# _bringme.txt所对应的配置文件 
 config = Config("bring me")
 config.targets         = Section("Targets section")
 config.targets.mapping = Item(

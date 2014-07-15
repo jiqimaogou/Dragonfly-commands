@@ -130,7 +130,7 @@ class ssh(BringableBase):
 config = Config("bring me")
 config.targets         = Section("Targets section")
 config.targets.mapping = Item(
-                              default={
+                              default={# 配置文件=>targets.mapping =  
                                        "my site": website("http://www.google.com"),
                                       },
                               doc="Mapping of spoken targets to bringable targets.",
@@ -178,7 +178,8 @@ class PasteRule(CompoundRule):
         self._log.debug("%s: pasting target %s." % (self, target))
         Paste(target.target).execute()
 
-
+#---------------------------------------------------------------------------
+# 帮助方法 
 #---------------------------------------------------------------------------
 # Create and manage this module's grammar.
 

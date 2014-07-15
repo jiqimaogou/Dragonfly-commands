@@ -1,7 +1,19 @@
+#-*- coding: UTF-8 -*- #
 
 #--- Targets section -------------------------------------------------------
 
 targets.mapping = {
+    # windows 
+    "windows fonts":      folder("C:\Windows\Fonts"),
+    # 娱乐网站 
+    "youku":      website("http://www.youku.com/"),
+    "verycd":      website("http://www.verycd.com/"),
+    # github 
+    "github":      website("https://github.com/"),
+    "github  java":      website("https://github.com/trending?l=java"),
+    "github  iphone":      website("https://github.com/trending?l=objective-c"),
+    # google 
+    "google  maps":      website("https://maps.google.com/"),
 
     # Python-specific targets.
     "(python | pie) (library | lib)":      website("http://docs.python.org/library/"),
@@ -9,11 +21,22 @@ targets.mapping = {
 
     # Dragonfly-specific targets.
     "dragonfly page":                      website("http://code.google.com/p/dragonfly/"),
+    "dragonfly documentation page":                      website("https://pythonhosted.org/dragonfly/"),
     "dragonfly modules page":              website("http://code.google.com/p/dragonfly-modules/"),
+    "dragonfly modules documentation page":              website("http://dragonfly-modules.googlecode.com/svn/trunk/command-modules/documentation/index.html"),
     "speech computing":                    website("http://www.speechcomputing.com/forum"),
-    "[natlink] macros":                    folder(r"C:\Program Files\NatLink\MacroSystem"),
+    "[natlink] macros":                    folder(r"C:\NatLink\NatLink\MacroSystem"),
     "dragonfly lib":                       folder(r"C:\Python25\Lib\site-packages\dragonfly"),
 
+    # goagent.
+    "goagent":                      open("d:\goagent-goagent-44210f6\local\goagent-win8.exe"),
+    "goagent page":                      website("https://code.google.com/p/goagent/"),
+
+    # android.
+    "android developer":                      website("http://developer.android.com/index.html"),
+    "android reference":                      website("http://developer.android.com/reference/packages.html"),
+    "android reference TextView":                      website("http://developer.android.com/reference/android/widget/TextView.html"),
+    "eclipse":                      open("e:\eclipse\eclipse.exe"),
    }
 
 #--- Language section ------------------------------------------------------

@@ -37,11 +37,14 @@ targets.mapping = {
     "android reference":                      website("http://developer.android.com/reference/packages.html"),
     "android reference TextView":                      website("http://developer.android.com/reference/android/widget/TextView.html"),
     "eclipse":                      open("e:\eclipse\eclipse.exe"),
+
+    # download.
+    "thunder":                      website("http://down.sandai.net/thunder7/Thunder_kk_7.9.24.4804.exe"),
    }
 
 #--- Language section ------------------------------------------------------
 
-lang.bring_me = "bring me <target>"
+lang.bring_me = "(bring | download) me <target>"
                     # Command to bring a target; must contain the
                     #  <target> extra.
                     # Default: "bring me <target>"
